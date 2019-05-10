@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#fffffd"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:id="@+id/imgViewSplashLogo"
+        android:layout_width="258dp"
+        android:layout_height="227dp"
+        android:background="@drawable/logo" />
+
+
+
+</LinearLayout>
