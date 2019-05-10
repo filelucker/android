@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:text=""
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button_save_location"
+        android:layout_below="@+id/text_location"
+        android:layout_marginTop="30dp"
+        android:text="GET LOCATION" />
+
+    <Button
+        android:id="@+id/button_updated_Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_location"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="UPDATE RUN IN 1MIN" />
+
+    <Button
+        android:id="@+id/button_save_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_updated_Location"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="SAVE LOCATION" />
+
+    <Button
+        android:id="@+id/button_show_save_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_save_location"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="SHOW SAVE LOCATION" />
+
+</RelativeLayout>
